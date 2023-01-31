@@ -1,0 +1,254 @@
+body{
+    width: 100%;
+    background-color: rgb(51, 61, 153);
+}
+main.conten{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin:2%  auto;
+
+}
+header.texto{
+    width: 100%;
+    margin: 2% 0;
+    background-color: rgba(255, 255, 255, 0.39);
+}
+header.texto .tema{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px;
+}
+header.texto .tema img{
+    width: 10%;
+    border: none;
+    transform: scale(1.2);
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+}
+.letras{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    color: rgb(248, 226, 196);
+    font-family:'Silkscreen', cursive;
+}
+.botones{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 3% auto;
+}
+.botones .boton{
+    width: 25%;
+    height: 220px;
+    border: none;
+    margin: 1%;
+    transition: all .2s;
+}
+div.inicio{
+    width: 90%;
+    margin: 1% autos;
+    display: flex;
+    justify-content: end;
+}
+div.inicio input{
+    font-size: 30px;
+    border: none;
+    font-family:'Silkscreen', cursive ;
+    color: white;
+    background: none;
+}
+div.inicio input:hover{
+    cursor: pointer;
+}
+.boton:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 70px 1px black inset;
+    border-radius: 10px;
+}
+#bto1{
+    background: url(img2/1.png);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto2{
+    background: url(img2/2.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto3{
+    background: url(img2/3.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto4{
+    background: url(img2/4.png);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto5{
+    background: url(img2/5.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto6{
+    background: url(img2/6.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto7{
+    background: url(img2/7.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto8{
+    background: url(img2/8.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto9{
+    background: url(img2/9.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto10{
+    background: url(img2/0.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+
+
+
+
+
+
+
+
+
+/*@media prueba de pagina*/
+@media screen and (max-width:1185px)  {
+    header.texto{
+        width: 100%;
+        margin: 2% 0;
+        background-color: rgba(255, 255, 255, 0.39);
+    }
+    header.texto .tema img{
+        display: none;
+    } 
+    
+}
+@media screen and (max-width:1150px)  {
+    header.texto .tema{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        font-family: 'Silkscreen', cursive;
+        font-size: 30px;
+    }
+    .letras{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        color: rgb(248, 226, 196);
+        font-family: 'Silkscreen', cursive;
+    }
+    .botones{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        margin: 3% auto;
+    }
+    .botones .boton{
+        width: 200px;
+        background-color: rebeccapurple;
+        height: 200px;
+        display: flex;
+        align-self: center;
+        font-family:'Silkscreen', cursive  ;
+        color: rgb(248, 226, 196);
+        justify-content: center;
+        transition: all .2s;
+       
+}
+#bto1{
+    background: url(img2/1.png);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto2{
+    background: url(img2/2.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto3{
+    background: url(img2/3.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto4{
+    background: url(img2/4.png);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto5{
+    background: url(img2/5.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto6{
+    background: url(img2/6.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto7{
+    background: url(img2/7.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto8{
+    background: url(img2/8.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto9{
+    background: url(img2/9.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+#bto10{
+    background: url(img2/0.webp);
+    background-size: cover;
+    background-position: center, center; 
+      font-size: 0.01rem;
+}
+
+}
